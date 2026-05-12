@@ -14,7 +14,6 @@
 | Paper URL   | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings 等稳定链接 |
 | GitHub/Code | 官方 GitHub 优先；没有官方代码时写 `N/A`，可额外补充可信复现仓库并标注 `Unofficial` |
 | Tags        | 主题标签，便于检索                                                                  |
-| Notes       | 该论文的组内笔记目录                                                                |
 
 推荐格式：
 
