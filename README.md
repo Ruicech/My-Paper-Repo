@@ -6,14 +6,14 @@
 
 每篇论文必须包含以下信息：
 
-| 字段        | 说明                                                                                |
-| ----------- | ----------------------------------------------------------------------------------- |
-| Priority    | 推荐优先级，建议使用 `P0`、`P1`、`P2`                                               |
-| Paper       | 论文标题                                                                            |
-| Venue/Year  | 会议或期刊及年份                                                                    |
-| Paper URL   | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings 等稳定链接 |
-| GitHub/Code | 官方 GitHub 优先；没有官方代码时写 `N/A`，可额外补充可信复现仓库并标注 `Unofficial` |
-| Tags        | 主题标签，便于检索                                                                  |
+| 字段 | 说明 |
+| --- | --- |
+| Priority | 推荐优先级，建议使用 `P0`、`P1`、`P2`。`P0` 表示核心必读论文，`P1` 表示重要补充论文，`P2` 表示扩展阅读论文 |
+| Paper | 论文标题，尽量使用论文正式标题 |
+| Venue/Year | 会议、期刊或预印本平台及年份，例如 `UIST 2023`、`AAAI 2024`、`arXiv 2023` |
+| Paper URL | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings、ACM Digital Library 等稳定链接 |
+| GitHub/Code | 论文相关代码或项目仓库。优先使用官方仓库，并统一标注为 `Official Code`、`Official Repo`、`Official System` 或 `Official Survey Repo`；如果没有官方代码，写 `N/A`；如果使用非官方复现仓库，需要标注为 `Unofficial Code` |
+| Tags | 主题标签，使用英文短标签，多个标签用英文逗号分隔，便于后续检索和分类 |
 
 推荐格式：
 
