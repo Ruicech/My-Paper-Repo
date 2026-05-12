@@ -12,7 +12,7 @@
 | Paper | 论文标题，尽量使用论文正式标题 |
 | Venue/Year | 会议、期刊或预印本平台及年份，例如 `NeurIPS 2022`、`ICLR 2023`、`ACL 2023`、`arXiv 2023` |
 | Paper URL | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings、PMLR、ACM Digital Library 等稳定链接 |
-| GitHub/Code | 论文相关代码、项目仓库或工具仓库。官方代码统一标注为 `Official Code`；官方项目主页或系统仓库标注为 `Official Repo`；只提供工具组件时标注为 `Official Tools`；无官方代码写 `N/A`；非官方复现代码标注为 `Unofficial Code` |
+| GitHub/Code | 论文相关代码、项目仓库或参考实现。官方代码统一标注为 `Official Code`；官方项目主页或系统仓库标注为 `Official Repo`；经典论文中由作者团队或主要机构维护、但不是论文专属仓库的实现可标注为 `Reference Implementation`；无官方代码写 `N/A`；非官方复现代码标注为 `Unofficial Code` |
 | Tags | 主题标签，使用英文短标签，多个标签用英文逗号分隔，便于后续检索和分类 |
 
 推荐格式：
