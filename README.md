@@ -18,7 +18,7 @@
 推荐格式：
 
 ```md
-| P1 | Paper Title | Venue 2026 | [Paper](https://...) | [GitHub](https://github.com/...) | automated-review, llm-as-judge | [notes](./notes/paper-title/) |
+| P1 | Paper Title | Venue 2026 | [Paper](https://...) | [GitHub](https://github.com/...) | automated-review, llm-as-judge |
 ```
 
 ## 方向划分
