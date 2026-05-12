@@ -10,9 +10,9 @@
 | --- | --- |
 | Priority | 推荐优先级，建议使用 `P0`、`P1`、`P2`。`P0` 表示核心必读论文，`P1` 表示重要补充论文，`P2` 表示扩展阅读论文 |
 | Paper | 论文标题，尽量使用论文正式标题 |
-| Venue/Year | 会议、期刊或预印本平台及年份，例如 `UIST 2023`、`AAAI 2024`、`arXiv 2023` |
-| Paper URL | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings、ACM Digital Library 等稳定链接 |
-| GitHub/Code | 论文相关代码或项目仓库。优先使用官方仓库，并统一标注为 `Official Code`、`Official Repo`、`Official System` 或 `Official Survey Repo`；如果没有官方代码，写 `N/A`；如果使用非官方复现仓库，需要标注为 `Unofficial Code` |
+| Venue/Year | 会议、期刊或预印本平台及年份，例如 `NeurIPS 2022`、`ICLR 2023`、`ACL 2023`、`arXiv 2023` |
+| Paper URL | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings、PMLR、ACM Digital Library 等稳定链接 |
+| GitHub/Code | 论文相关代码、项目仓库或工具仓库。官方代码统一标注为 `Official Code`；官方项目主页或系统仓库标注为 `Official Repo`；只提供工具组件时标注为 `Official Tools`；无官方代码写 `N/A`；非官方复现代码标注为 `Unofficial Code` |
 | Tags | 主题标签，使用英文短标签，多个标签用英文逗号分隔，便于后续检索和分类 |
 
 推荐格式：
