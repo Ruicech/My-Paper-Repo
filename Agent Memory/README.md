@@ -8,5 +8,5 @@
 | Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
 | --- | --- | --- | --- | --- | --- |
 | P0 | Generative Agents: Interactive Simulacra of Human Behavior | UIST 2023 | [Paper](https://arxiv.org/pdf/2304.03442) | [Reference Code](https://github.com/joonspk-research/generative_agents) | generative-agents, multi-agent, simulation, planning, reflection, large-language-model |
+| P0 | MemGPT: Towards LLMs as Operating Systems | arXiv 2023 | [Paper](https://arxiv.org/abs/2310.08560) | [GitHub](https://github.com/letta-ai/letta) | agent-memory, virtual-context-management, long-term-memory, memory-hierarchy, read |\
 | P1 | MemoryBank: Enhancing Large Language Models with Long-Term Memory | AAAI 2024 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/29946) | [Reference Code](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) | MemoryBank, long-term-memory, memory-augmented-LLM, user-profile, conversational-agent |
-| P0 | MemGPT: Towards LLMs as Operating Systems | arXiv 2023 | [Paper](https://arxiv.org/abs/2310.08560) | [GitHub](https://github.com/letta-ai/letta) | agent-memory, virtual-context-management, long-term-memory, memory-hierarchy, read |
