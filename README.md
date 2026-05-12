@@ -23,8 +23,8 @@
 
 ## 方向划分
 
-- `automated-review`：审稿生成、评审质量预测、Meta-review、Rebuttal、Reviewer assignment、LLM-as-reviewer、评审一致性与可靠性。
-- `agent-memory`：短期/长期记忆、检索增强记忆、情景记忆、工作流状态、记忆压缩与遗忘机制。
-- `self-evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。
-- `prompt-engineering-and-agent-origins`：Prompt Engineering、Chain-of-Thought、Tool Use、ReAct、早期 Agent 框架。
-- `classic-must-read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。
+- `Automated-Review`：审稿生成、评审质量预测、Meta-review、Rebuttal、Reviewer assignment、LLM-as-reviewer、评审一致性与可靠性。
+- `Agent Memory`：短期/长期记忆、检索增强记忆、情景记忆、工作流状态、记忆压缩与遗忘机制。
+- `Self-Evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。
+- `Prompt Engineering and agent Origin`：Prompt Engineering、Chain-of-Thought、Tool Use、ReAct、早期 Agent 框架。
+- `Classic Must-Read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。
