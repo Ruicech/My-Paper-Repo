@@ -8,7 +8,7 @@
 ## 论文清单
 
 | Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | P1 | ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration | arXiv 2026 | [Paper](https://arxiv.org/abs/2605.03042) | [Official Code](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | autonomous-research, self-evolution, cross-model-review, automated-review, evidence-to-claim-audit, research-agent |
 
 
