@@ -27,3 +27,4 @@
 - `Prompt Engineering and agent Origin`：Prompt Engineering、Chain-of-Thought、Tool Use、ReAct、早期 Agent 框架。
 - `Classic Must-Read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。
 - `Agent Tool Use and Action Space`：Tool Use、Function Calling、API Calling、Code-as-Action、执行反馈、工具链组合与复杂任务执行。
+- `Self-Evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。
