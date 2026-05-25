@@ -23,7 +23,7 @@
 
 ## 方向划分
 
-- `Agent Memory`：短期/长期记忆、检索增强记忆、情景记忆、工作流状态、记忆压缩与遗忘机制。
+- `Agent Memory`：短期/长期记忆、检索增强记忆、情景记忆、工作流状态、记忆压缩与遗忘机制。[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent%20Memory/README.md)
 - `Prompt Engineering and agent Origin`：Prompt Engineering、Chain-of-Thought、Tool Use、ReAct、早期 Agent 框架。
 - `Classic Must-Read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。
 - `Agent Tool Use and Action Space`：Tool Use、Function Calling、API Calling、Code-as-Action、执行反馈、工具链组合与复杂任务执行。
