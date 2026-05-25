@@ -29,3 +29,4 @@
 - `Agent Tool Use and Action Space`：Tool Use、Function Calling、API Calling、Code-as-Action、执行反馈、工具链组合与复杂任务执行。
 - `Self-Evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。
 - `Agent-System`：高效 Agent 系统的搭建，包含执行框架、工具调用、任务规划与分解、多 Agent 协作、模型路由、上下文管理、轻量化部署、本地运行和推理效率优化等。
+- `Automated-Review`：审稿生成、评审质量预测、Meta-review、Rebuttal、Reviewer assignment、LLM-as-reviewer、评审一致性与可靠性。
