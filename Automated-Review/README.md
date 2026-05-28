@@ -8,4 +8,5 @@
 | Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
 | --- | --- | --- | --- | --- | --- |
 | P2 | Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis | NEJM AI 2024 | [Paper](https://arxiv.org/abs/2310.01783) | [Official Code](https://github.com/Weixin-Liang/LLM-scientific-feedback) | automated-review, llm-feedback, peer-review, user-study, human-ai-collaboration, pre-submission-review |
+| P1 | ReviewAgents: Bridging the Gap Between Human and AI-Generated Paper Reviews | arXiv 2025 | [Paper](https://arxiv.org/abs/2503.08506) | N/A | automated-review, reviewer-agent, multi-agent, meta-review, review-cot, literature-retrieval, reviewbench |
 | P0 | Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review | TMLR Submission 2026 | [Paper](https://openreview.net/forum?id=7iX2Z2bPFB) | N/A | automated-review, llm-assisted-peer-review, contradiction-benchmark, multi-agent-review, error-detection, verification-centric-review, human-evaluation |
