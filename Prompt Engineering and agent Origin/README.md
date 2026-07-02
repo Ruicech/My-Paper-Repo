@@ -7,7 +7,6 @@
 
 | Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
 | --- | --- | --- | --- | --- | --- |
-| P0 | Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | NeurIPS 2022 | [Paper](https://arxiv.org/abs/2201.11903) | N/A | chain-of-thought, prompting, reasoning, large-language-model, few-shot-learning |
 | P0 | ReAct: Synergizing Reasoning and Acting in Language Models | ICLR 2023 | [Paper](https://arxiv.org/abs/2210.03629) | [Official Code](https://github.com/ysymyth/ReAct) | ReAct, reasoning, acting, language-agent, prompting, decision-making |
 | P1 | Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models | ACL 2023 | [Paper](https://aclanthology.org/2023.acl-long.147/) | [Official Code](https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting) | plan-and-solve, zero-shot-chain-of-thought, prompting, reasoning, large-language-model |
 | P0 | Tree of Thoughts: Deliberate Problem Solving with Large Language Models | NeurIPS 2023 | [Paper](https://arxiv.org/abs/2305.10601) | [Official Code](https://github.com/princeton-nlp/tree-of-thought-llm) | tree-of-thoughts, prompting, reasoning, tree-search, problem-solving, large-language-model |
