@@ -27,7 +27,7 @@
 | P0       | Beyond “Not Novel Enough”: Enriching Scholarly Critique with LLM-Assisted Feedback     | EACL 2026         | [Paper](https://aclanthology.org/2026.eacl-long.121/) | [GitHub](https://github.com/UKPLab/arxiv2025-assessing-paper-novelty)         | novelty-assessment, scholarly-critique, literature-aware-review, evidence-based-assessment, contribution-comparison, human-review-analysis |
 | P0       | NovBench: Evaluating Large Language Models on Academic Paper Novelty Assessment        | ACL Findings 2026 | [Paper](https://arxiv.org/abs/2604.11543)             | [GitHub](https://github.com/njust-winchy/llm4novelty)                         | novelty-assessment, benchmark, LLM-evaluation, peer-review, novelty-evaluation, expert-review, review-generation                           |
 | P0       | AI Can Learn Scientific Taste                                                          | arXiv 2026        | [Paper](https://arxiv.org/abs/2603.14473)             | [GitHub/Project](https://tongjingqi.github.io/AI-Can-Learn-Scientific-Taste/) | scientific-taste, preference-learning, review-judgement, RLCF, AI-scientist                                                                |
-
+| P0 | Literature-Grounded Novelty Assessment of Scientific Ideas | arXiv 2025 | [Paper](https://arxiv.org/abs/2506.22026) | [GitHub](https://github.com/simra-shahid/idea_novelty_checker) | novelty-assessment, scientific-idea-evaluation, literature-grounded, RAG, facet-based-reranking, expert-labeled-examples | RAG-based novelty checker that compares scientific ideas against retrieved prior literature using facet-based reranking and grounded reasoning. |
 
 
 ## 当前课题可借鉴的研究空白
