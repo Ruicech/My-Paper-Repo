@@ -9,7 +9,7 @@
 
 | Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
 | --- | --- | --- | --- | --- | --- |
-| P0 | Self-Refine: Iterative Refinement with Self-Feedback | NeurIPS 2023 / arXiv 2023 | [Paper](https://arxiv.org/abs/2303.17651) | [Code](https://selfrefine.info/) | self-feedback, iterative-refinement, test-time-improvement, LLM-as-critic, read |
+| P0 | Self-Refine: Iterative Refinement with Self-Feedback | NeurIPS 2023 | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html) | [Code](https://selfrefine.info/) | self-feedback, iterative-refinement, test-time-improvement, LLM-as-critic, read |
 | P1 | ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration | arXiv 2026 | [Paper](https://arxiv.org/abs/2605.03042) | [Official Code](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | autonomous-research, self-evolution, cross-model-review, automated-review, evidence-to-claim-audit, research-agent |
 
 
