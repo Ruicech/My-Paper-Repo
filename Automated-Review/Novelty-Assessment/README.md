@@ -28,7 +28,8 @@
 | P0       | NovBench: Evaluating Large Language Models on Academic Paper Novelty Assessment        | ACL Findings 2026 | [Paper](https://arxiv.org/abs/2604.11543)             | [GitHub](https://github.com/njust-winchy/llm4novelty)                         | novelty-assessment, benchmark, LLM-evaluation, peer-review, novelty-evaluation, expert-review, review-generation                           |
 | P0       | AI Can Learn Scientific Taste                                                          | arXiv 2026        | [Paper](https://arxiv.org/abs/2603.14473)             | [GitHub/Project](https://tongjingqi.github.io/AI-Can-Learn-Scientific-Taste/) | scientific-taste, preference-learning, review-judgement, RLCF, AI-scientist                                                                |
 | P0 | Literature-Grounded Novelty Assessment of Scientific Ideas | arXiv 2025 | [Paper](https://arxiv.org/abs/2506.22026) | [GitHub](https://github.com/simra-shahid/idea_novelty_checker) | novelty-assessment, scientific-idea-evaluation, literature-grounded, RAG, facet-based-reranking, expert-labeled-examples | RAG-based novelty checker that compares scientific ideas against retrieved prior literature using facet-based reranking and grounded reasoning. |
-
+| P0 | On the Limits of LLM-as-Judge for Scientific Novelty Assessment | arXiv 2026 | [Paper](https://arxiv.org/abs/2606.12071) | N/A | novelty-assessment, llm-as-judge, scientific-novelty, research-question, RQ-Bench, human-expert-evaluation, novelty-mirage, read |
+| P1 | AI Idea Bench 2025: AI Research Idea Generation Benchmark | arXiv 2025 | [Paper](https://arxiv.org/abs/2504.14191) | [Official Code](https://github.com/yansheng-qiu/AI_Idea_Bench_2025) | scientific-ideation, idea-generation, benchmark, novelty-evaluation, idea-quality, LLM-evaluation, scientific-discovery, read |
 
 ## 当前课题可借鉴的研究空白
 
