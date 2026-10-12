@@ -20,8 +20,6 @@
 | [Automated-Review](./Automated-Review/README.md) | 自动化科研评审、LLM Reviewer、Review Evaluation、Meta-Review、Paper Evaluation 和评审可靠性 |
 | [Classic Must-Read](./Classic%20Must-Read/README.md) | Transformer、预训练语言模型、RLHF、Reasoning、模型评估等跨方向经典基础论文 |
 
----
-
 ## Paper Entry Convention
 
 每篇论文统一使用以下字段：
