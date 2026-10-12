@@ -24,9 +24,19 @@
 ## 方向划分
 
 - `Agent Memory`：短期/长期记忆、检索增强记忆、情景记忆、工作流状态、记忆压缩与遗忘机制。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent%20Memory/README.md)
+
 - `Prompt Engineering and agent Origin`：Prompt Engineering、Chain-of-Thought、Tool Use、ReAct、早期 Agent 框架。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Prompt%20Engineering%20and%20agent%20Origin/README.md)
-- `Classic Must-Read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Classic%20Must-Read/README.md)
+
+- `Context Engineering and Long-Context Reasoning`：Context Engineering、长上下文理解与推理、信息位置偏差、Context Selection、Context Routing、Context Compression、Retrieval Ordering 以及长文档信息利用。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Context%20Engineering%20and%20Long-Context%20Reasoning/README.md)
+
+- `LLM Programming and Pipeline Optimization`：LLM Programming、Declarative LM Pipeline、Prompt Optimization、Demonstration Optimization、LLM Compiler 以及多阶段 LLM Pipeline 的自动优化。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/LLM%20Programming%20and%20Pipeline%20Optimization/README.md)
+
 - `Agent Tool Use and Action Space`：Tool Use、Function Calling、API Calling、Code-as-Action、执行反馈、工具链组合与复杂任务执行。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent%20Tool%20Use%20and%20Action%20Space/README.md)
-- `Self-Evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Self-Evolution/README.md)
+
 - `Agent-System`：高效 Agent 系统的搭建，包含执行框架、工具调用、任务规划与分解、多 Agent 协作、模型路由、上下文管理、轻量化部署、本地运行和推理效率优化等。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent-System/README.md)
+
+- `Self-Evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Self-Evolution/README.md)
+
 - `Automated-Review`：审稿生成、评审质量预测、Meta-review、Rebuttal、Reviewer assignment、LLM-as-reviewer、评审一致性与可靠性。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Automated-Review/README.md)
+
+- `Classic Must-Read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Classic%20Must-Read/README.md)
