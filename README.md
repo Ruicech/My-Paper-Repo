@@ -1,42 +1,183 @@
 # My-Paper-Repo
 
-论文仓库
+个人论文阅读与研究资料仓库，用于整理人工智能、LLM、Agent、自动化科研评审等方向的重要论文。
 
-## 论文条目规范
+仓库按照研究方向组织。每个方向目录包含独立的 `README.md`，用于维护论文清单、阅读优先级、代码链接和主题标签；部分论文还包含独立阅读笔记。
 
-每篇论文必须包含以下信息：
+---
 
-| 字段 | 说明 |
+## Repository Structure
+
+| Direction | Description |
 | --- | --- |
-| Priority | 推荐优先级，建议使用 `P0`、`P1`、`P2`。`P0` 表示核心必读论文，`P1` 表示重要补充论文，`P2` 表示扩展阅读论文 |
-| Paper | 论文标题，尽量使用论文正式标题 |
-| Venue/Year | 会议、期刊或预印本平台及年份，例如 `NeurIPS 2022`、`ICLR 2023`、`ACL 2023`、`arXiv 2023` |
-| Paper URL | 论文地址，优先使用 arXiv、OpenReview、ACL Anthology、NeurIPS Proceedings、PMLR、ACM Digital Library 等稳定链接 |
-| GitHub/Code | 论文相关代码、项目仓库或参考实现。官方代码统一标注为 `Official Code`；官方项目主页或系统仓库标注为 `Official Repo`；经典论文中由作者团队或主要机构维护、但不是论文专属仓库的实现可标注为 `Reference Implementation`；无官方代码写 `N/A`；非官方复现代码标注为 `Unofficial Code` |
-| Tags | 主题标签，使用英文短标签，多个标签用英文逗号分隔，便于后续检索和分类 |
+| [Agent Memory](./Agent%20Memory/README.md) | Agent 的短期记忆、长期记忆、检索增强记忆、情景记忆、工作流状态以及记忆管理机制 |
+| [Prompt Engineering and Agent Foundations](./Prompt%20Engineering%20and%20Agent%20Foundations/README.md) | Prompt Engineering、Chain-of-Thought、ReAct、Tool Use 以及早期 Agent 方法与基础范式 |
+| [Context Engineering and Long-Context Reasoning](./Context%20Engineering%20and%20Long-Context%20Reasoning/README.md) | Context Engineering、长上下文理解、信息位置偏差、上下文选择、压缩、排序和信息利用 |
+| [LLM Programming and Pipeline Optimization](./LLM%20Programming%20and%20Pipeline%20Optimization/README.md) | LLM Programming、Declarative Pipeline、Prompt Optimization、Demonstration Optimization 和 Pipeline 自动优化 |
+| [Agent Tool Use and Action Space](./Agent%20Tool%20Use%20and%20Action%20Space/README.md) | Tool Use、Function Calling、API Calling、Code-as-Action、执行反馈和复杂工具调用 |
+| [Agent-System](./Agent-System/README.md) | Agent 系统架构、任务规划、多 Agent 协作、模型路由、上下文管理、部署和推理效率优化 |
+| [Self-Evolution](./Self-Evolution/README.md) | 模型和 Agent 通过反馈、反思、自动数据构造和迭代优化实现自我改进 |
+| [Automated-Review](./Automated-Review/README.md) | 自动化科研评审、LLM Reviewer、Meta-review、Rebuttal、Reviewer Assignment 和评审可靠性 |
+| [Classic Must-Read](./Classic%20Must-Read/README.md) | Transformer、强化学习、检索、生成模型、评估等跨方向经典基础论文 |
 
-推荐格式：
+---
+
+## Paper Entry Convention
+
+每篇论文统一使用以下字段：
+
+| Field | Description |
+| --- | --- |
+| `Priority` | 阅读优先级 |
+| `Paper` | 论文正式标题 |
+| `Venue/Year` | 会议、期刊或预印本平台及年份 |
+| `Paper URL` | 论文正式链接 |
+| `GitHub/Code` | 官方代码、官方项目仓库或其他相关实现 |
+| `Tags` | 用于主题分类和检索的标签 |
+
+统一格式：
 
 ```md
-| P1 | Paper Title | Venue 2026 | [Paper](https://...) | [GitHub](https://github.com/...) | automated-review, llm-as-judge |
+| Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
+| --- | --- | --- | --- | --- | --- |
+| P0 | Paper Title | Venue 2026 | [Paper](https://...) | [Official Code](https://...) | tag-1, tag-2 |
 ```
 
-## 方向划分
+---
 
-- `Agent Memory`：短期/长期记忆、检索增强记忆、情景记忆、工作流状态、记忆压缩与遗忘机制。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent%20Memory/README.md)
+## Priority Convention
 
-- `Prompt Engineering and agent Origin`：Prompt Engineering、Chain-of-Thought、Tool Use、ReAct、早期 Agent 框架。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Prompt%20Engineering%20and%20agent%20Origin/README.md)
+阅读优先级按照以下规则维护：
 
-- `Context Engineering and Long-Context Reasoning`：Context Engineering、长上下文理解与推理、信息位置偏差、Context Selection、Context Routing、Context Compression、Retrieval Ordering 以及长文档信息利用。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Context%20Engineering%20and%20Long-Context%20Reasoning/README.md)
+| Priority | Meaning |
+| --- | --- |
+| `P0` | Core / Must Read。该方向的代表性工作、基础方法或非常值得优先阅读的论文 |
+| `P1` | Important。重要扩展工作，建议系统阅读 |
+| `P2` | Supplementary。补充阅读、背景材料或特定子问题相关论文 |
 
-- `LLM Programming and Pipeline Optimization`：LLM Programming、Declarative LM Pipeline、Prompt Optimization、Demonstration Optimization、LLM Compiler 以及多阶段 LLM Pipeline 的自动优化。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/LLM%20Programming%20and%20Pipeline%20Optimization/README.md)
+`Priority` 表示个人阅读与知识体系中的优先级，不代表对论文质量进行绝对排名。
 
-- `Agent Tool Use and Action Space`：Tool Use、Function Calling、API Calling、Code-as-Action、执行反馈、工具链组合与复杂任务执行。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent%20Tool%20Use%20and%20Action%20Space/README.md)
+---
 
-- `Agent-System`：高效 Agent 系统的搭建，包含执行框架、工具调用、任务规划与分解、多 Agent 协作、模型路由、上下文管理、轻量化部署、本地运行和推理效率优化等。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Agent-System/README.md)
+## Link Convention
 
-- `Self-Evolution`：模型、Agent 或系统通过反馈、反思、自动数据构造、工具调用和迭代优化实现自改进。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Self-Evolution/README.md)
+`GitHub/Code` 字段统一使用以下命名：
 
-- `Automated-Review`：审稿生成、评审质量预测、Meta-review、Rebuttal、Reviewer assignment、LLM-as-reviewer、评审一致性与可靠性。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Automated-Review/README.md)
+| Label | Meaning |
+| --- | --- |
+| `Official Code` | 论文作者发布的论文实验代码 |
+| `Official Repo` | 论文对应框架、系统或长期维护项目的官方仓库 |
+| `Official Project` | 官方项目主页、Demo 页面或非代码项目网站 |
+| `Unofficial Code` | 第三方复现或社区实现 |
+| `N/A` | 未找到公开代码或项目 |
 
-- `Classic Must-Read`：Transformer、RL、检索、生成模型、评估等跨方向基础论文。链接：[README](https://github.com/Ruicech/My-Paper-Repo/blob/main/Classic%20Must-Read/README.md)
+原则上不再混用 `GitHub`、`Code`、`Repo`、`Official System` 等其他写法。
+
+---
+
+## Tag Convention
+
+Tags 统一采用：
+
+```text
+lowercase-kebab-case
+```
+
+例如：
+
+```text
+agent-memory
+long-context
+context-engineering
+tool-use
+pipeline-optimization
+novelty-assessment
+evidence-grounding
+```
+
+多个标签使用英文逗号分隔：
+
+```text
+context-engineering, long-context, position-bias
+```
+
+避免使用：
+
+```text
+Context Engineering
+LLM Evaluation
+Agent Memory
+```
+
+### Reading Status
+
+已完成主要内容阅读的论文可以增加：
+
+```text
+read
+```
+
+例如：
+
+```text
+context-engineering, long-context, position-bias, read
+```
+
+没有 `read` 标签表示论文已收录，但尚未完成主要阅读。
+
+---
+
+## Direction README Convention
+
+每个研究方向的 `README.md` 统一采用以下结构：
+
+```md
+# Direction Name
+
+方向定义与研究范围说明。
+
+## 论文清单
+
+| Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
+| --- | --- | --- | --- | --- | --- |
+| P0 | ... | ... | ... | ... | ... |
+
+## 可维护主题
+
+- Topic A：……
+- Topic B：……
+- Topic C：……
+```
+
+其中：
+
+- README 只描述该研究方向本身，不绑定当前具体研究项目。
+- 论文详细阅读笔记尽量放入单独的 `notes/` 目录，而不是塞入论文表格。
+- 表格始终保持统一的 6 列结构。
+- 新增论文时优先检查是否已经存在于其他方向，必要时可跨方向收录，但 Tags 应体现该论文在当前目录中的主要作用。
+
+---
+
+## Notes Convention
+
+对于需要长期保存的论文阅读笔记，可以使用：
+
+```text
+notes/
+```
+
+进行组织。
+
+推荐结构：
+
+```text
+Direction/
+├── README.md
+└── notes/
+    ├── paper-a/
+    │   └── README.md
+    └── paper-b/
+        └── README.md
+```
+
+方向级 `README.md` 负责论文索引，`notes/` 负责更详细的方法分析、实验总结、优缺点和个人理解。
