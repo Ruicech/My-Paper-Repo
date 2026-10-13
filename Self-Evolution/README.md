@@ -12,6 +12,7 @@
 | --- | --- | --- | --- | --- | --- |
 | P0 | Self-Refine: Iterative Refinement with Self-Feedback | NeurIPS 2023 | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html) | [Official Project](https://selfrefine.info/) | self-feedback, iterative-refinement, test-time-improvement, llm-as-critic, read |
 | P1 | ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration | arXiv 2026 | [Paper](https://arxiv.org/abs/2605.03042) | [Official Code](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | autonomous-research, self-evolution, cross-model-review, automated-review, evidence-to-claim-audit, research-agent |
+| P0 | Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates | arXiv 2026 | [Paper](https://arxiv.org/abs/2601.18510) | N/A | jitrl, continual-learning, test-time-learning, reinforcement-learning, experience-memory, policy-optimization, training-free, agent-self-evolution, read |
 
 ## 可维护主题
 
