@@ -13,6 +13,8 @@ Context Engineering 不仅关注“模型能够接收多少 Token”，更关注
 | Priority | Paper | Venue/Year | Paper URL | GitHub/Code | Tags |
 | --- | --- | --- | --- | --- | --- |
 | P0 | Lost in the Middle: How Language Models Use Long Contexts | TACL 2024 | [Paper](https://aclanthology.org/2024.tacl-1.9/) | [Official Code](https://github.com/nelson-liu/lost-in-the-middle) | long-context, context-utilization, position-bias, multi-document-qa, retrieval, long-context-evaluation, read |
+| P0 | Found in the Middle: Calibrating Positional Attention Bias Improves Long Context Utilization | Findings of ACL 2024 | [Paper](https://aclanthology.org/2024.findings-acl.890/) | [Official Code](https://github.com/alinlab/LLMPositionalBias) | long-context, positional-bias, attention-calibration, context-utilization, rag, long-context-evaluation |
+| P0 | Found in the Middle: How Language Models Use Long Contexts Better via Plug-and-Play Positional Encoding | NeurIPS 2024 | [Paper](https://arxiv.org/abs/2403.04797) | [Official Code](https://github.com/AngusMonroe/Ms-PoE) | long-context, positional-encoding, rope, position-bias, ms-poe, context-utilization |
 
 ## 可维护主题
 
