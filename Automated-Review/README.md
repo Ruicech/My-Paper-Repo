@@ -30,6 +30,8 @@
 | P0 | From Isolated Scoring to Collaborative Ranking: A Comparison-Native Framework for LLM-Based Paper Evaluation | Findings of ACL 2026 | [Paper](https://aclanthology.org/2026.findings-acl.1195/) | [Official Code](https://github.com/ECNU-Text-Computing/ComparisonReview) | automated-review, paper-evaluation, llm-as-reviewer, pairwise-comparison, collaborative-ranking, acceptance-prediction, relative-evaluation |
 | P0 | When Evidence Conflicts: Reliability-aware Meta-review Generation | Findings of EMNLP 2026 | [Paper](https://aclanthology.org/2026.findings-emnlp.746/) | [Official Code](https://github.com/Wangxz729/reliability-aware-meta-review) | automated-review, meta-review, reliability-aware-aggregation, opinion-level-support, review-quality, conflict-resolution, evidence-weighting, read |
 | P0 | Bridging Social Psychology and LLM Reasoning: Conflict-Aware Meta-Review Generation via Cognitive Alignment | arXiv 2025 | [Paper](https://arxiv.org/abs/2503.13879) | N/A | automated-review, meta-review, cognitive-alignment, conflict-aware-reasoning, dual-process-reasoning, anchoring-bias, conformity-bias, read |
+| P0 | From Passive Generation to Investigation: A Proactive Scientific Peer Review Agent | arXiv 2026 | [Paper](https://arxiv.org/abs/2606.13349) | [Official Code](https://github.com/UKPLab/arxiv2026-ProReviewer) | automated-review, proactive-review, reviewer-agent, structured-review-log, evidence-grounding, reinforcement-learning, read |
+
 
 ## 可维护主题
 
